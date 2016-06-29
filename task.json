@@ -1,0 +1,15 @@
+{
+	"version": 1,
+	"schedule": {
+		"type": "simple",
+		"interval": "2s"
+	},
+	"workflow": {
+		"collect": {
+			"metrics": {
+				"/emc/vmware/esxi/host/cpu/usage": {},
+				"/emc/vmware/esxi/host/mem/usage": {}
+			}
+		}
+	}
+}
