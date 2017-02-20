@@ -7,6 +7,7 @@ CHANGE THE PASSWORD IN config.json
 
 
 
+
 curl -X POST -F plugin=@snap-plugin-collector-esxi http://localhost:8181/v1/plugins
 
 curl -vXPOST http://localhost:8181/v1/tasks -d @task.json --header "Content-Type: application/json"
